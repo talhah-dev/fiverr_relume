@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relume</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/logo.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+
+
+</head>
+
+<body class="overflow-x-hidden">
+    <div id="global-loader"
+        class="hi dden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="text-center">
+            <div class="w-16 h-16 border-4 border-dashed rounded-full animate-spin border-zinc-800 mx-auto"></div>
+            <h2 class="text-zinc-900  mt-4">Loading...</h2>
+        </div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="relative overflow-x-hidden bgBanner">
+
+        <div id="navbar"></div>
+        <section class="relative overflow-hidden min-h-screen bg-center bg-cover">
+
+
+            <!-- Content -->
+            <div
+                class="relative z-20 mx-auto max-w-7xl px-5 sm:px-6 lg:px-12 min-h-screen flex md:flex-row md:gap-20 gap-5 items-center justify-center flex-col">
+
+                <div class="md:max-w-3xl w-full text-center">
+                    <!-- Headline -->
+                    <h1 data-aos="fade-up" data-aos-delay="200"
+                        class="max-w-5xl textShadow mx-auto font-bold text-4xl md:text-7xl text-white leading-tight mb-5 md:mb-5 capitalize">
+                        Smartvolt–dein unabhängiger Energieberater.
+                    </h1>
+
+                    <!-- Description -->
+                    <p data-aos="fade-up" data-aos-delay="400"
+                        class="text-white max-w-3xl mx-auto md:mb-7 mb-5 text-lg space-y-3">
+                        Wechsle jetzt deinen Stromanbieter und sichere dir im Rahmen unserer aktuellen iPhone-Aktion
+                        dein brandneues iPhone 15 als Willkommensgeschenk.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div data-aos="fade-up" data-aos-delay="600"
+                        class="flex items-center justify-center flex-col md:flex-row gap-5">
+                        <a href="#"
+                            class="md:w-auto openLeadModal py-3 px-8 font-medium text-center text-[#000302] rounded-xl bg-white hover:opacity-70 transition-all duration-500">
+                            Jetzt teilnehmen
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+
+    <section class="relative">
+        <div class="mx-auto max-w-7xl px-6 py-16 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-16 items-center">
+                <!-- LEFT: Content -->
+                <div class="lg:col-span-6">
+                    <p data-aos="fade-up" class="text-xs font-semibold uppercase tracking-widest text-[#000302]">
+                        iPhone statt Millionen für Werbung
+                    </p>
+
+                    <h1 data-aos="fade-up" class="mt-4 text-4xl font-bold leading-tight sm:text-5xl">
+                        Warum wir dir ein<br class="hidden sm:block">
+                        iPhone schenken – und<br class="hidden sm:block">
+                        andere nicht.
+                    </h1>
+
+                    <p data-aos="fade-up" class="mt-6 max-w-2xl text-[#000302]">
+                        Große Energieanbieter investieren jedes Jahr Millionen in
+                        Fernsehspots, Plakatwerbung und Hochglanz-Kampagnen. Doch am
+                        Ende zahlst du diese Kosten mit deiner Stromrechnung.
+                    </p>
+
+                    <p data-aos="fade-up" class="mt-4 max-w-2xl text-[#000302]">
+                        Wir machen es anders: Statt Millionen in Werbung zu stecken,
+                        geben wir unser Marketingbudget direkt an dich weiter – in Form
+                        eines brandneuen iPhone 15. So profitierst du sofort und sparst
+                        zusätzlich jeden Monat bei deinem Stromtarif.
+                    </p>
+
+                    <!-- Benefits -->
+                    <div data-aos="fade-up" class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
+                        <!-- Item 1 -->
+                        <div class="flex items-start gap-2">
+                            <span
+                                class="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-green-600">
+                                <svg viewBox="0 0 20 20" fill="white" class="h-3 w-3">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <div>
+                                <h3 class="font-bold text-[#000302]">
+                                    Direktes Geschenk für dich
+                                </h3>
+                                <p class="mt-1 text-sm text-[#000302]">
+                                    Anstelle von Werbung erhältst du ein iPhone 15 – als
+                                    Dankeschön für deinen Wechsel.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="flex items-start gap-2">
+                            <span
+                                class="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-md bg-green-600">
+                                <svg viewBox="0 0 20 20" fill="white" class="h-3 w-3">
+                                    <path fill-rule="evenodd"
+                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <div>
+                                <h3 class="font-bold text-[#000302]">
+                                    Monatlich sparen
+                                </h3>
+                                <p class="mt-1 text-sm text-[#000302]">
+                                    Wir helfen dir, einen günstigeren Energieanbieter zu finden – schnell,
+                                    einfach und unabhängig.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CTA -->
+                    <div data-aos="fade-up" class="md:mt-8 mt-6">
+                        <a href="#"
+                            class="inline-flex openLeadModal items-center rounded-xl border border-[#00030226] text-[#000302] px-8 transition-all duration-400 hover:bg-zinc-50 py-3 font-medium">
+                            Jetzt teilnehmen
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Placeholder for image/logo -->
+                <div data-aos="zoom-in" class="mt-12 lg:mt-0 lg:col-span-6">
+                    <div class="relative w-full flex items-center justify-center">
+                        <img src="/docs/assets/images/smartvolt.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#033F2D] text-white">
+        <div class="mx-auto max-w-7xl px-5 py-24">
+            <h2 data-aos="fade-up" class="text-center text-4xl max-w-3xl mx-auto font-bold leading-tight sm:text-5xl">
+                So einfach kommst du zu deinem iPhone
+            </h2>
+
+            <div class="mx-auto mt-14 grid max-w-5xl grid-cols-1 gap-12 gap-y-16 md:grid-cols-3">
+                <!-- Step 1 -->
+                <div data-aos="fade-up" class="text-center">
+                    <div
+                        class="mx-auto mb-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white text-lg font-semibold">
+                        1
+                    </div>
+                    <h3 class="text-lg font-bold md:text-xl">
+                        Schritt 1 – Daten eingeben
+                    </h3>
+                    <p class="mt-2 leading-6">
+                        Trage deine Postleitzahl und Kontaktdaten ein,
+                        damit wir dir passende Angebote zeigen können.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div data-aos="fade-up" data-aos-delay="100" class="text-center">
+                    <div
+                        class="mx-auto mb-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white text-lg font-semibold">
+                        2
+                    </div>
+                    <h3 class="text-lg font-bold md:text-xl">
+                        Schritt 2 – Beratung
+                    </h3>
+                    <p class="mt-2 leading-6">
+                        Ein Smartvolt-Berater meldet sich bei dir, findet den
+                        besten Tarif für dich – und du sparst jeden Monat
+                        bares Geld.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div data-aos="fade-up" data-aos-delay="200" class="text-center">
+                    <div
+                        class="mx-auto mb-5 flex h-10 w-10 items-center justify-center rounded-full border-2 border-white text-lg font-semibold">
+                        3
+                    </div>
+                    <h3 class="text-lg font-bold md:text-xl">
+                        Schritt 3 – iPhone erhalten
+                    </h3>
+                    <p class="mt-2 leading-6">
+                        Nach deinem erfolgreichen Wechsel bekommst du
+                        dein nagelneues iPhone 15 direkt nach Hause geliefert.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative">
+        <div class="mx-auto max-w-7xl px-6 lg:px-20 py-16 lg:py-28">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-16 items-center">
+                <!-- LEFT: Content -->
+                <div class="lg:col-span-6">
+                    <p data-aos="fade-up" class="text-xs font-semibold uppercase tracking-widest text-[#000302]">
+                        SmartVolt
+                    </p>
+
+                    <h1 data-aos="fade-up" class="mt-4 text-4xl font-bold leading-tight sm:text-5xl">
+                        Unsere Reise und Vision für einen faireren Energiemarkt
+                    </h1>
+                </div>
+
+                <!-- RIGHT: Placeholder for image/logo -->
+                <div class="mt-6 lg:mt-0 lg:col-span-6">
+                    <p data-aos="fade-up" class=" max-w-2xl text-[#000302]">
+                        Gegründet in Berlin verfolgt Smartvolt ein klares Ziel: den Energiemarkt fairer und
+                        transparenter zu gestalten.
+                        Während große Anbieter Millionen in Werbung investieren, setzen wir auf das, was wirklich zählt
+                        – unsere Kunden.
+                    </p>
+
+                    <!-- CTA -->
+                    <div data-aos="fade-up" class="mt-8">
+                        <a href="#"
+                            class="openLeadModal inline-flex items-center rounded-xl border border-[#00030226] text-[#000302] px-8 transition-all duration-400 hover:bg-zinc-50 py-3 font-medium">
+                            Jetzt teilnehmen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative banner2">
+        <div class="mx-auto max-w-7xl px-6 py-16 lg:py-24">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-16 items-center">
+                <!-- LEFT: Content -->
+                <div class="lg:col-span-7">
+
+                    <h1 data-aos="fade-up" class="text-4xl font-bold text-white leading-tight sm:text-5xl">
+                        Nur für die Ersten 500 Teilnehmer – solange der Vorrat reicht!
+                    </h1>
+
+                    <p data-aos="fade-up" class="mt-6 max-w-2xl text-[#fff]">
+                        Verpasse nicht deine Chance: sichere dir dein iPhone 15 als Willkommensgeschenk.
+                        Die Aktion endet sofort, wenn alle Geräte vergeben sind.
+                    </p>
+
+                    <!-- CTA -->
+                    <div data-aos="fade-up" class="mt-6">
+                        <a href="#"
+                            class="openLeadModal inline-flex items-center rounded-xl text-black bg-white px-8 transition-all duration-400 hover:opacity-80 py-3 font-medium">
+                            Jetzt teilnehmen
+                        </a>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Placeholder for image/logo -->
+                <div class="mt-12 lg:mt-0 lg:col-span-5">
+                    <div class="relative w-full flex items-center justify-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="relative bg-[#033F2D]">
+        <div class="mx-auto max-w-7xl px-6 py-16 lg:py-24">
+            <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-16 items-center">
+                <!-- LEFT: Content -->
+                <div class="lg:col-span-6">
+                    <h1 data-aos="fade-up" class="text-4xl text-white font-bold leading-tight sm:text-5xl">
+                        Smartvolt wächst – bald auch in deiner Stadt!
+                    </h1>
+
+                    <p data-aos="fade-up" class="mt-6 max-w-2xl text-[#fff]">
+                        Aktuell sind wir bereits in Berlin und Brandenburg aktiv – doch das ist erst der Anfang. <br>
+                        Schon bald bringen wir unser Modell in weitere deutsche Städte und sorgen dafür, dass noch mehr
+                        Menschen von günstigeren Stromtarifen und unserem iPhone-Angebot profitieren können.
+                        <br><br>
+                        Bleib dran – vielleicht sind wir schon bald auch bei dir vor Ort!
+                    </p>
+                </div>
+
+                <!-- RIGHT: Placeholder for image/logo -->
+                <div data-aos="zoom-in" class="mt-8 lg:mt-0 lg:col-span-6">
+                    <div class="relative w-full flex items-center justify-center">
+                        <img src="/docs/assets/images/ladies.jpg" class="md:min-h-[640px] object-cover rounded-xl"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="leadModal" class="fixed inset-0 z-[100] hidden" aria-hidden="true">
+        <!-- Overlay (click to close) -->
+        <button id="leadOverlay"
+            class="absolute inset-0 bg-black/50 backdrop-blur-sm opacity-0 transition-opacity duration-300"
+            aria-label="Overlay – Popup schließen"></button>
+
+        <!-- Modal Panel Wrapper -->
+        <div class="relative z-[101] flex min-h-screen items-center justify-center p-4">
+            <!-- Panel -->
+            <div id="leadPanel" role="dialog" aria-modal="true" aria-labelledby="leadTitle"
+                class="w-full max-w-xl max-h-[95vh] overflow-auto rounded-2xl bg-white shadow-2xl opacity-0 -translate-y-4 scale-95 transition duration-300">
+                <!-- Header -->
+                <div class="flex items-start justify-between gap-6 p-6 pb-2">
+                    <div>
+                        <h2 id="leadTitle" class="md:text-2xl text-xl font-bold">
+                            Prüfe jetzt, ob du dein iPhone 15 sichern kannst
+                        </h2>
+                        <p class="mt-3 text-sm text-gray-600">
+                            Trage deine Daten ein – wir melden uns innerhalb weniger Stunden bei dir.
+                        </p>
+                    </div>
+                    <button type="button" id="leadCloseBtn"
+                        class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-gray-200 text-gray-700 hover:bg-gray-50"
+                        aria-label="Popup schließen">
+                        <!-- X icon -->
+                        <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 6l12 12M18 6L6 18" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Body -->
+                <div class="p-6 pt-2">
+                    <div id="success-popup"
+                        class="hidden fixed fadeIn bottom-10 right-10 z-50 bg-opacity-50 flex items-center justify-center">
+                        <div class="bg-white p-4 rounded-lg shadow-lg">
+                            <p class="text-lg flex items-center justify-center gap-2 font-medium text-[#033F2D]"><i
+                                    class="fa-solid text-[#033F2D] fa-circle-check"></i>Submit Successfully</p>
+                        </div>
+                    </div>
+                    <form class="space-y-5" id="contact-form"
+                        onsubmit="event.preventDefault(); /* TODO: handle submit */">
+                        <input type="hidden" name="access_key" value="f895132b-9c8a-40a2-890e-03a6791213bc">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                            <div>
+                                <label for="vorname"
+                                    class="mb-1 block text-sm font-medium text-gray-700">Vorname</label>
+                                <input id="vorname" name="vorname" type="text" required
+                                    class="block w-full rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#033F2D] focus:outline-none focus:ring-2 focus:ring-[#033F2D]/20"
+                                    placeholder="Max">
+                            </div>
+                            <div>
+                                <label for="nachname"
+                                    class="mb-1 block text-sm font-medium text-gray-700">Nachname</label>
+                                <input id="nachname" name="nachname" type="text" required
+                                    class="block w-full rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#033F2D] focus:outline-none focus:ring-2 focus:ring-[#033F2D]/20"
+                                    placeholder="Mustermann">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                            <div>
+                                <label for="email"
+                                    class="mb-1 block text-sm font-medium text-gray-700">E-Mail-Adresse</label>
+                                <input id="email" name="email" type="email" required
+                                    class="block w-full rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#033F2D] focus:outline-none focus:ring-2 focus:ring-[#033F2D]/20"
+                                    placeholder="du@beispiel.de">
+                            </div>
+                            <div>
+                                <label for="plz"
+                                    class="mb-1 block text-sm font-medium text-gray-700">Postleitzahl</label>
+                                <input id="plz" name="plz" type="text" inputmode="numeric" pattern="\\d{4,5}" required
+                                    class="block w-full rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#033F2D] focus:outline-none focus:ring-2 focus:ring-[#033F2D]/20"
+                                    placeholder="10115">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="phone"
+                                class="mb-1 block text-sm font-medium text-gray-700">Telefonnummer</label>
+                            <input id="phone" name="phone" type="tel" required
+                                class="block w-full rounded-lg border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-[#033F2D] focus:outline-none focus:ring-2 focus:ring-[#033F2D]/20"
+                                placeholder="+49 170 1234567">
+                        </div>
+
+                        <!-- Trust Note -->
+                        <p class="rounded-xl bg-gray-50 p-3 text-sm text-gray-600">
+                            Deine Daten sind bei uns sicher. Wir verwenden sie ausschließlich zur Abwicklung der Aktion
+                            und um dir passende Energieangebote vorzustellen.
+                        </p>
+
+                        <!-- Checkboxes -->
+                        <div class="space-y-2">
+                            <label class="flex items-start gap-3">
+                                <input type="checkbox" required
+                                    class="mt-1 h-4 w-4 rounded border-gray-300 text-[#033F2D] focus:ring-[#033F2D]">
+                                <span class="text-sm text-gray-700">
+                                    Ich stimme der <a href="#datenschutz" class="underline">Datenschutzerklärung</a> zu.
+                                </span>
+                            </label>
+                            <label class="flex items-start gap-3">
+                                <input type="checkbox"
+                                    class="mt-1 h-4 w-4 rounded border-gray-300 text-[#033F2D] focus:ring-[#033F2D]">
+                                <span class="text-sm text-gray-700">
+                                    Ich möchte über aktuelle Aktionen von SmartVolt informiert werden.
+                                </span>
+                            </label>
+                        </div>
+
+                        <!-- Submit -->
+                        <button type="submit"
+                            class="w-full rounded-xl bg-[#033F2D] py-3 text-center font-semibold text-white transition hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-[#033F2D]/30">
+                            Jetzt kostenlos teilnehmen
+                        </button>
+
+                        <!-- FOMO Footer -->
+                        <p class="text-center text-xs font-medium text-emerald-700">
+                            ⚡ Nur noch wenige iPhones verfügbar – sichere dir jetzt dein Geschenk!
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-white text-gray-900">
+        <div class="mx-auto max-w-7xl px-6 pt-16 py-10">
+            <!-- Top row -->
+            <div class="grid grid-cols-1 items-center md:gap-8 gap-12 sm:grid-cols-3">
+                <!-- Left: logo -->
+                <a href="/index.html"
+                    class="md:justify-self-start justify-self-   text-center italic text-2xl font-semibold tracking-tight">
+                    Logo
+                </a>
+
+                <!-- Center: CTA -->
+                <div class="justify-self-center">
+                    <ul class="space-y-3 text-center">
+                        <li class="md:hidden">
+                            <a href="#" class="text-sm font-semibold tect-[#000302] hover:underline">
+                                Link One
+                            </a>
+                        </li>
+                        <li class="md:hidden">
+                            <a href="#" class="text-sm font-semibold tect-[#000302] hover:underline">
+                                Link Two
+                            </a>
+                        </li>
+                        <li class="md:hidden">
+                            <a href="#" class="text-sm font-semibold tect-[#000302] hover:underline">
+                                Link Three
+                            </a>
+                        </li>
+                        <li class="md:hidden">
+                            <a href="#" class="text-sm font-semibold tect-[#000302] hover:underline">
+                                Link Four
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-sm openLeadModal font-semibold tect-[#000302] hover:underline">
+                                Jetzt teilnehmen
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right: socials -->
+                <nav class="md:justify-self-end justify-self-center">
+                    <ul class="flex items-center gap-4">
+                        <!-- Facebook -->
+                        <li>
+                            <a href="#" aria-label="Facebook" class="text-[#000302] hover:text-gray-900">
+                                <i class="fa-brands fa-facebook text-xl"></i>
+                            </a>
+                        </li>
+                        <!-- Instagram -->
+                        <li>
+                            <a href="#" aria-label="Instagram" class="text-[#000302] hover:text-gray-900">
+                                <i class="fa-brands fa-instagram text-xl"></i>
+                            </a>
+                        </li>
+                        <!-- X (Twitter) -->
+                        <li>
+                            <a href="#" aria-label="X" class="text-[#000302] hover:text-gray-900">
+                                <i class="fa-brands fa-x-twitter text-xl"></i>
+                            </a>
+                        </li>
+                        <!-- LinkedIn -->
+                        <li>
+                            <a href="#" aria-label="LinkedIn" class="text-[#000302] hover:text-gray-900">
+                                <i class="fa-brands fa-linkedin text-xl"></i>
+                            </a>
+                        </li>
+                        <!-- YouTube -->
+                        <li>
+                            <a href="#" aria-label="YouTube" class="text-[#000302] hover:text-gray-900">
+                                <i class="fa-brands fa-youtube text-xl"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            <!-- Divider -->
+            <hr class="my-8 mt-20 border-t border-gray-200" />
+
+            <!-- Bottom row -->
+            <div class="flex flex-col-reverse items-center justify-center gap-6 text-sm text-[#000302] md:flex-row">
+                <p>© 2025 SmartVolt. All rights reserved.</p>
+                <nav class="flex md:flex-row flex-col items-center gap-6">
+                    <a href="/datenschutz.html" class="hover:no-underline underline">Datenschutz</a>
+                    <a href="/allgemeine-geschäftsbedingungen.html" class="hover:no-underline underline">Allgemeine
+                        Geschäftsbedingungen</a>
+                    <a href="/impressum.html" class="hover:no-underline underline">Impressum</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+</body>
+
+</html>
